@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @retailer.name %>
+</p>
+
+<p>
+  <strong>Contact person:</strong>
+  <%= @retailer.contact_person %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @retailer.website %>
+</p>
+
+<%= link_to 'Edit', edit_retailer_path(@retailer) %> |
+<%= link_to 'Back', retailers_path %>
